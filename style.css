@@ -1,0 +1,133 @@
+body{
+    font-family: 'Source Code Pro', monospace;
+    background-color: #DCDCDC;
+}
+
+canvas {
+    background-color: #0F2027;
+}
+
+#gameCanvas{
+    margin-top:25px;
+    display: block;
+
+}
+
+.gameovr{
+    display: none;
+}
+
+.all{
+    width:100%;
+    display: flex;
+   justify-content: space-between;
+}
+
+.controlsInfo{
+    width:20%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0F2027;
+    margin-top: 25px;
+    margin-bottom: 380px;
+}
+
+.controlsInfo h2{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 35px;
+    color: #FFDC00;
+}
+
+.controlsInfo p{
+    color: #FAFAD2;
+    text-align: left;
+    margin-left: 25px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.controlsInfo p span{
+    color:#FFDC00 ;
+}
+
+.buttons{
+    width:20%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.buttons .play{
+     height: 100px;
+     width: 100px;
+     border-radius: 50%;
+     border: none;
+     background-color:#FFDC00 ;
+     margin-top: 25px;
+     margin-left: 25px;
+     margin-bottom: 15px;
+     outline: none;
+     box-shadow: 0px 0px 5px 5px #0F2027;
+     font-size: 30px;
+     color:#0F2027 ;
+    cursor: pointer;
+}
+
+.buttons .pause{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: none;
+    background-color:#FFDC00 ;
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+    outline: none;
+    box-shadow: 0px 0px 5px 5px #0F2027;
+    font-size: 30px;
+    color:#0F2027 ;
+    cursor: pointer;
+}
+
+.buttons .reset{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color:#FFDC00 ;
+    margin-top: 15px;
+    margin-left: 120px;
+    margin-bottom: 15px;
+    outline: none;
+    box-shadow: 0px 0px 5px 5px #0F2027;
+    font-size: 20px;
+    color:#0F2027 ;
+    cursor: pointer;
+}
+
+.buttons #useris{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.buttons input{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    outline:none;
+    height: 25px;
+    text-align: center;
+    background-color: #0F2027;
+    color: #FFDC00;
+    font-weight: 600;
+    font-size: 25px;
+}
